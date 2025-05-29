@@ -1,0 +1,73 @@
+/* Reset & Fonts */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Hero Banner */
+.hero {
+  background-image: url('https://cdn.britannica.com/32/5932-050-38328495/Giant-panda-bamboo-forest-Sichuan-China-province.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Navigation Bar */
+nav {
+  background: #444;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Project Cards */
+.project {
+  background: #e9ecef;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
